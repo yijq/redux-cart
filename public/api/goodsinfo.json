@@ -1,0 +1,26 @@
+[
+    {
+        "productId": 1,
+        "productName": "product1",
+        "productPrice": 50,
+        "inventry":10
+    },
+    {
+        "productId": 2,
+        "productName": "product2",
+        "productPrice": 100,
+        "inventry":30
+    },
+    {
+        "productId": 3,
+        "productName": "product3",
+        "productPrice": 200,
+        "inventry":15
+    },
+    {
+        "productId": 4,
+        "productName": "product4",
+        "productPrice": 300,
+        "inventry":10
+    }
+]

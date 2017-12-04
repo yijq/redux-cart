@@ -1,0 +1,32 @@
+.cart_item {
+    color: rgb(150,112,23,.7);
+    border: 3px solid rgb(150,112,23,.7);
+    background: url('../../static/images/car.png');
+    background-size: 100% 100%;
+}
+
+.cartitem-enter {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.cartitem-enter.cartitem-enter-active {
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  transition: height 800ms ease-in,width 800ms ease-in,opacity 800ms ease-in;
+}
+
+.cartitem-leave {
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+}
+
+.cartitem-leave.cartitem-leave-active {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  transition: height 800ms ease-in,width 800ms ease-in,opacity 800ms ease-in;
+}

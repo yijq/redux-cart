@@ -1,0 +1,25 @@
+.prod-enter {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.prod-enter.prod-enter-active {
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  transition: height 800ms ease,width 800ms ease,opacity 800ms ease;
+}
+
+.prod-leave {
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+}
+
+.prod-leave.prod-leave-active {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  transition: height 800ms ease,width 800ms ease,opacity 800ms ease;
+}
